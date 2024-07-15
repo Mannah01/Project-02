@@ -69,10 +69,10 @@ function login() {
 // CheckBox Function
 function goFurther(){
   if (document.getElementById("chkAgree").checked == true) {
-    document.getElementById('btnSubmit').style = 'background: linear-gradient(to right, #FA4B37, #DF2771);';
+    document.getElementById('submitSignUp').style = 'background: linear-gradient(to right, #FA4B37, #DF2771);';
   }
   else{
-    document.getElementById('btnSubmit').style = 'background: lightgray;';
+    document.getElementById('submitSignUp').style = 'background: lightgray;';
   }
 }
 
