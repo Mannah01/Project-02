@@ -3,13 +3,13 @@
  import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
  import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
  
- const firebaseConfig = {
-    apiKey: "AIzaSyBQ2rw5gIkbQmMQSkP_V8eglopnnF8JRLA",
-    authDomain: "login-form-manah.firebaseapp.com",
-    projectId: "login-form-manah",
-    storageBucket: "login-form-manah.appspot.com",
-    messagingSenderId: "407179802864",
-    appId: "1:407179802864:web:46e07d5f94116ebbd56a35"
+  const firebaseConfig = {
+    apiKey: "AIzaSyDISpupu3f_rWyCZk_Z0OrOAtJr7gqwbbw",
+    authDomain: "learnitskills-651b7.firebaseapp.com",
+    projectId: "learnitskills-651b7",
+    storageBucket: "learnitskills-651b7.appspot.com",
+    messagingSenderId: "829515978522",
+    appId: "1:829515978522:web:62ad11315f919f7ef17ea3"
   };
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
