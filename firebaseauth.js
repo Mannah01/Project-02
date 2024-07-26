@@ -76,7 +76,7 @@
         showMessage('login is successful', 'signInMessage');
         const user=userCredential.user;
         localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href='index.html';
+        window.location.href='subjects/computer_courses.html';
     })
     .catch((error)=>{
         const errorCode=error.code;
