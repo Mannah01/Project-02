@@ -316,8 +316,10 @@ a, button {
 	align-items: center;
 }
 .about-content .side-text {
-	width: 550px;
-	padding: 50px 40px;
+	/* width: 550px;
+	padding: 50px 40px; */
+	width: 34.375rem;
+	padding: 2.6vw 0vw;
 	background: #fff;
 	box-shadow: 2px 0 100px rgba(0,0,0,0.3);
 	border-radius: 5px;
