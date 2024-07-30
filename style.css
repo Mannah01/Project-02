@@ -376,7 +376,7 @@ a, button {
 	border: 1px solid #e36be1;
 	font-size: 15px;
 	color: #272529;
-	font-family: cursive;
+	/* font-family: cursive; */
 	text-decoration: none;
 }
 .cbox .det a:hover {
